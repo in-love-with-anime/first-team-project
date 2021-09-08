@@ -11,8 +11,16 @@
     margin-right: 24px;
 }
 
-.products__item--bg-color {
+.products__item:nth-child(1) {
     background-color: $bg-hero;
+}
+
+.products__item:nth-child(1) {
+    background-color: $bg-section2;
+}
+
+.products__item:nth-child(1) {
+    background-color: $bg-section3;
 }
 
 .products__name {
