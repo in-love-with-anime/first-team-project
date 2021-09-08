@@ -9,20 +9,20 @@
 
 
 //Base
-@import 'base/normalize';
-@import 'base/base';
+@import './base/normalize';
+@import './base/base';
 
 // Utils
-@import 'utils/variables';
-@import 'utils/_visually-hidden';
-@import 'utils/mixin';
+@import './utils/variables';
+@import './utils/_visually-hidden';
+@import './utils/mixin';
 
 // Components
-@import 'components/container';
-@import 'components/titles';
+@import './components/container';
+@import './components/titles';
 
 // Layout
-@import 'layout/header';
-@import 'layout/products';
-@import 'layout/about';
+@import './layout/header';
+@import './layout/products';
+@import './layout/about';
 
