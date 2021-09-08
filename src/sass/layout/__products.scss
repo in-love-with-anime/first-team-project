@@ -1,0 +1,19 @@
+.products__item {
+    text-align: center;
+}
+
+.products__item--bg-color {
+    background-color: $bg-hero;
+}
+
+.products__name {
+    font-family: $secondary-font;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: $text-secondary;
+}
