@@ -7,15 +7,14 @@
 @import './example';
 
 
+// Utils
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/mixin';
 
 //Base
 @import './base/normalize';
 @import './base/base';
-
-// Utils
-@import './utils/variables';
-@import './utils/_visually-hidden';
-@import './utils/mixin';
 
 // Components
 @import './components/container';
