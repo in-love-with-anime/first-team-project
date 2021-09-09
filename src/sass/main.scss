@@ -1,11 +1,12 @@
-// Utils
-@import 'utils/variables';
-@import 'utils/visually-hidden';
-@import 'utils/mixin';
-
 //Base
 @import 'base/normalize';
+@import 'base/fonts';
+@import 'base/variables';
 @import 'base/base';
+
+// Utils
+@import 'utils/visually-hidden';
+@import 'utils/mixin';
 
 // Components
 @import 'components/container';
@@ -15,4 +16,9 @@
 @import 'layout/header';
 @import 'layout/products';
 @import 'layout/about';
+@import 'layout/advantages';
+@import 'layout/gallery';
+@import 'layout/reviews';
+@import 'layout/contacts';
+@import 'layout/footer';
 
